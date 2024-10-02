@@ -63,9 +63,8 @@ class Kaktus extends Växt {
         super(namn, höjd);
     }
 
-    @Override
     public String vätskeInfo() {
-        return getNamn() + " behöver " + vattenMängd + " liter " + vätskeTyp + " per dag.";
+        return getNamn() + " behöver " + vattenMängd + " liter " + vätskeTyp + " idag.";
     }
 }
 
