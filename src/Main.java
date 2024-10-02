@@ -1,8 +1,9 @@
 import javax.swing.JOptionPane;
 
+
 interface VätskeBehov {
     String vätskeInfo();  // Metod för vätskeinfon
-}
+} //interface
 
 abstract class Växt implements VätskeBehov {
     private String namn;
@@ -22,7 +23,7 @@ abstract class Växt implements VätskeBehov {
     }
 
     public abstract String vätskeInfo();
-}
+} //polymorfism
 
 class Palm extends Växt {
     private static final double VattenPerMeter = 0.5;
